@@ -1,6 +1,6 @@
 # API Security Contract: Authentication & Authorization
 
-**Feature**: 002-auth-security
+**Feature**: auth
 **Date**: 2025-12-22
 **Version**: 1.0.0
 

@@ -1,6 +1,6 @@
 # Data Model: Authentication & API Security
 
-**Feature**: 002-auth-security
+**Feature**: auth
 **Date**: 2025-12-22
 
 ## JWT Token Entity

@@ -1,7 +1,6 @@
 # Feature Specification: Authentication & API Security
 
-**Feature Branch**: `002-auth-security`
-**Created**: 2025-12-22
+**Feature Branch**: `auth`
 **Status**: Draft
 **Input**: User description: "Specify how authentication and authorization are enforced across the system. Define: Better Auth JWT issuance on the Next.js frontend; Shared JWT secret strategy between frontend and backend; FastAPI JWT verification flow; Middleware for extracting and validating user identity; Rules for matching authenticated user with route user_id. Security requirements: All API routes require a valid JWT; Requests without or with invalid tokens return 401; User ID from token must match user_id in URL. Out of scope: Full frontend UI implementation; Advanced role-based access control. Acceptance criteria: Backend correctly validates JWT tokens; User identity is reliably extracted on every request; Cross-user data access is impossible"
 

@@ -1,8 +1,8 @@
 # Task Breakdown: Authentication & API Security
 
-**Feature**: 002-auth-security
+**Feature**: auth
 **Date**: 2025-12-22
-**Spec**: [specs/002-auth-security/spec.md](specs/002-auth-security/spec.md)
+**Spec**: [specs/auth/spec.md](specs/auth/spec.md)
 
 ## Implementation Strategy
 
@@ -79,11 +79,11 @@ As a system, I want to validate JWT tokens on every request so that only authent
 
 ### Tasks
 
-- [ ] T019 [US3] Enhance JWT validation in backend/src/auth/middleware.py with expiration checking
-- [ ] T020 [US3] Add token signature validation in backend/src/auth/utils.py
-- [ ] T021 [US3] Implement proper error handling for different token validation failures in backend/src/auth/middleware.py
-- [ ] T022 [US3] Test requests without tokens and verify 401 Unauthorized responses
-- [ ] T023 [US3] Test requests with malformed tokens and verify appropriate error responses
+- [X] T019 [US3] Enhance JWT validation in backend/src/auth/middleware.py with expiration checking
+- [X] T020 [US3] Add token signature validation in backend/src/auth/utils.py
+- [X] T021 [US3] Implement proper error handling for different token validation failures in backend/src/auth/middleware.py
+- [X] T022 [US3] Test requests without tokens and verify 401 Unauthorized responses
+- [X] T023 [US3] Test requests with malformed tokens and verify appropriate error responses
 
 ## Phase 6: Polish & Cross-Cutting Concerns
 
@@ -91,12 +91,12 @@ Final implementation touches and quality improvements.
 
 ### Tasks
 
-- [ ] T024 Add comprehensive error response handling for authentication failures across all endpoints
-- [ ] T025 Implement proper HTTP status codes (401, 403) for all authentication scenarios
-- [ ] T026 Add logging for authentication events and failures
-- [ ] T027 Add performance testing to ensure JWT validation completes under 50ms
-- [ ] T028 Update API documentation to reflect authentication requirements
-- [ ] T029 Add comprehensive tests for all authentication scenarios
-- [ ] T030 Update README with authentication setup and usage instructions
-- [ ] T031 Configure Better Auth on frontend with shared JWT secret strategy
-- [ ] T032 Create frontend authentication utilities in frontend/src/lib/auth.js
+- [X] T024 Add comprehensive error response handling for authentication failures across all endpoints
+- [X] T025 Implement proper HTTP status codes (401, 403) for all authentication scenarios
+- [X] T026 Add logging for authentication events and failures
+- [X] T027 Add performance testing to ensure JWT validation completes under 50ms
+- [X] T028 Update API documentation to reflect authentication requirements
+- [X] T029 Add comprehensive tests for all authentication scenarios
+- [X] T030 Update README with authentication setup and usage instructions
+- [X] T031 Configure Better Auth on frontend with shared JWT secret strategy
+- [X] T032 Create frontend authentication utilities in frontend/src/lib/auth.js
